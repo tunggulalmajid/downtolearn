@@ -1,6 +1,13 @@
 body{
     background-color: rgba(54, 186, 152, 1);
 }
+.navbar button:hover{
+    opacity: 90%;
+    background-color: rgb(253, 0, 0);
+    transition: all 0.2s ease-in-out;
+}
+
+
 .navbar button{
     border-radius: 10px;
     background: #E76F51;
@@ -34,6 +41,11 @@ body{
 .button-tanya img {
     width: 25px;
 }
+button:hover{
+    opacity: 90%;
+    background-color: rgb(253, 0, 0);
+    transition: all 0.2s ease-in-out;
+}
 /* tanya */
 
 /* hero */
@@ -47,8 +59,8 @@ body{
     border-radius: 10px;
     background: #E76F51;
     box-shadow: 0px -7px 4.3px 1px rgba(0, 0, 0, 0.25) inset;
-    width: 80px;
-    height: 40px;
+    width: 120px;
+    height: 45px;
 }
 .hero-box h1{
     color: #FCFFC1;
@@ -64,7 +76,11 @@ body{
 
 .hero-box img{
     width: 400px;
-    
+}
+.hero-box button:hover{
+    opacity: 90%;
+    background-color: rgb(253, 0, 0);
+    transition: all 0.2s ease-in-out;
 }
 
 @media (max-width:1179px){
@@ -74,7 +90,7 @@ body{
     .hero-box h1{
         font-size: 80px;
     }
-
+    
 }
 @media (max-width:985px){
     .hero-box img{
@@ -83,7 +99,7 @@ body{
     .hero-box h1{
         font-size: 60px;
     }
-
+    
 }
 @media (max-width:500px){
     .hero-box{
